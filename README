@@ -2,6 +2,8 @@
 get-twitter-portraits
 =====================
 
-get-twitter-portraits 
+get-twitter-portraits downloads the pictures of Twitter users specified in an input CSV file.
+
+For the moment, the CSV requires both user IDs and picture URLs. The latter could be easily retrieved using the Twitter API, but requests may be limited according to request rate restrictions. Further work may allow users to choose between this behavior (non-verbose input, slow download) or the current one (verbose input, quick download).
 
 WARNING: cody maturity level *very* low
